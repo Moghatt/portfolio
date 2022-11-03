@@ -5,6 +5,8 @@ body {
   font-family: 'Merriweather', serif;
 }
 
+
+
 strong {
   color: #1c8b8b;
   font-size: 1rem;
@@ -58,21 +60,31 @@ a:hover {
 
 .top-containe {
   display: flex;
+
   background-color: #E4F9F5;
-  position: relative;
+
   padding-top: 100px;
 }
 
-@media screen and (max-width:4500px) {
+@media only screen and (max-width: 800px) {
   .top-containe {
     display: flex;
     flex-direction: column;
     background-color: #E4F9F5;
-    position: relative;
+
     padding-top: 100px;
 
-    /* margin: 0 auto; */
-    margin: 0 auto 100px auto;
+    margin: 0 auto;
+
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  body {
+    width: 100%;
+
+    margin: 0 auto;
+
   }
 }
 
@@ -171,8 +183,9 @@ a:hover {
 }
 
 .selfi {
-  height: 400px;
-  width: 400px;
+  width: 100%;
+  max-width: 400px;
+  height: auto;
 }
 
 
