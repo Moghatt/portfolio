@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Mo Ghatt</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Merriweather|Montserrat|Sacramento" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Italianno&family=Open+Sans:wght@300&family=Poller+One&display=swap"
+    rel="stylesheet">
+  <link rel="icon" href="./favicon.ico">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" />
+  <script src="https://kit.fontawesome.com/3e2b1604b4.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+  <div>
+    <div class="topnav" id="myTopnav">
+      <a href="#home" class="active">Home</a>
+      <a href="#about">About</a>
+      <a href="#project">Projects</a>
+      <a href="#contact">Contact</a>
+
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </div>
+  </div>
+
+
+  <div class="top-containe">
+    <img class="mountain" src="./images/developer_pic.svg" alt="mountain-img">
+    <div class="title-text">
+      <h1>I'm Mo Ghatt.</h1>
+      <h2>a <span class="pro">pro</span>grammer.</h2>
+      <!-- <a class="bt" href="moghatalikh@gmail.com">CONTACT ME</a> -->
+    </div>
+
+
+  </div>
+
+  <div id="about" class="middle-containe">
+    <div class="profile">
+      <img class="selfi" src="./images/Moghatt.jpg" alt="mo-profile-img">
+      <h2>Hello.</h2>
+      <p class="intro">I'm Mo a software engineer based in Adelaide with a passion for building delightful digital
+        experiences. I ❤️ whiskey and also whiskey collectioner.</p>
+    </div>
+    <hr>
+    <div id="project" class="skills">
+      <h2>Recent Projects.</h2>
+
+      <div class="card">
+        <img src="./images/Pokedex.png" alt="Avatar" style="width:100%">
+        <div class="container">
+          <p><strong>Pokedex</strong> is a SPA(single-page application) where it shows the first
+            generation of Pokemon using different APIs.
+          </p>
+          <p><strong>Tech Stack</strong> : JS, Node.js, Express.js. PostgreSQL.</p>
+          <p><a class="footer-link" href="https://www.appbrewery.co/"><i class="fa-solid fa-link"></i> Demo</a><a
+              class="footer-link" href="https://www.appbrewery.co/"><i class="fa-brands fa-github"></i> Github</a></p>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="./images/Cati.png" alt="Avatar" style="width:100%">
+        <div class="container">
+          <p><strong>Cati</strong> is a CRUD app for lonely cats to find their soulmates.</p>
+          <p><strong>Tech Stack</strong> : Ruby, PostgreSQL, Sinatra, HTML, CSS and Boostrap.</p>
+          <p><a class="footer-link" href="https://www.appbrewery.co/"><i class="fa-solid fa-link"></i> Demo</a><a
+              class="footer-link" href="https://www.appbrewery.co/"><i class="fa-brands fa-github"></i> Github</a></p>
+        </div>
+      </div>
+      <div class="card">
+        <img src="./images/Screenshot 2022-08-25 235009.png" alt="Avatar" style="width:100%">
+        <div class="container">
+          <p><strong>Tic-Tak-Toe</strong> A spin on the classic tic-tac-toe game</p>
+          <p><strong>Tech Stack</strong> : HTML, CSS and Javascript.</p>
+          <p><a class="footer-link" href="https://www.appbrewery.co/"><i class="fa-solid fa-link"></i> Demo</a><a
+              class="footer-link" href="https://www.appbrewery.co/"><i class="fa-brands fa-github"></i> Github</a></p>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="./images/Screenshot 2022-08-25 235009.png" alt="Avatar" style="width:100%">
+        <div class="container">
+          <p><strong>Tic-Tak-Toe</strong> A spin on the classic tic-tac-toe game</p>
+          <p><strong>Tech Stack</strong> : HTML, CSS and Javascript.</p>
+          <p><a class="footer-link" href="https://www.appbrewery.co/"><i class="fa-solid fa-link"></i> Demo</a><a
+              class="footer-link" href="https://www.appbrewery.co/"><i class="fa-brands fa-github"></i> Github</a></p>
+        </div>
+      </div>
+      <a id="moreP" class="" onclick="moreProjects()">+More Projects</a>
+      <div class="card display">
+        <img src="./images/Screenshot 2022-08-25 235009.png" alt="Avatar" style="width:100%">
+        <div class="container">
+          <p><strong>Tic-Tak-Toe</strong> A spin on the classic tic-tac-toe game</p>
+          <p><strong>Tech Stack</strong> : HTML, CSS and Javascript.</p>
+          <p><a class="footer-link" href="https://www.appbrewery.co/"><i class="fa-solid fa-link"></i> Demo</a><a
+              class="footer-link" href="https://www.appbrewery.co/"><i class="fa-brands fa-github"></i> Github</a></p>
+        </div>
+      </div>
+
+
+      <hr>
+      <div id="contact" class="contact-me">
+        <h2>Get In Touch</h2>
+        <h3>If you love Pizza as much as I do.</h3>
+        <p class="contact-message">Love Pizza as much as I do? Let's talk about how awesome they are! We can code
+          while we eat Pizza!
+        </p>
+        <a class="bt" href="moghatalikh@gmail.com">CONTACT ME</a>
+      </div>
+    </div>
+
+
+    <div class="bottom-containe">
+      <!-- <i id="linkedin" class="fa-brands fa-linkedin fa-xl" onmouseover="onMouseOver()"></i> -->
+      <a class="footer-link" href="https://www.linkedin.com/in/angela-yu-963a584b/"><i
+          class="fa-brands fa-linkedin fa-xl"></i> LinkedIn</a>
+      <a class="footer-link" href="https://twitter.com/yu_angela"><i class="fa-brands fa-twitter fa-xl"></i> Twitter</a>
+      <a class="footer-link" href="https://www.appbrewery.co/"><i class="fa-brands fa-github"></i> Github</a>
+      <p class="copyright">© 2022 Mo Ghatt</p>
+    </div>
+    <script>
+      console.log('به سایت من خوش امدید')
+      /* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
+      function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+          x.className += " responsive";
+        } else {
+          x.className = "topnav";
+        }
+      }
+      function moreProjects() {
+        var x = document.querySelector("#moreP");
+        var y = document.querySelector('.display')
+
+        x.className = "display";
+        y.className = 'card'
+      }
+
+      // function onMouseOver() {
+      //   var y = document.querySelector("#linkedin");
+      //   y.addEventListener('mouseover', () => {
+      //     if (y.className === "fa-brands fa-linkedin fa-xl") {
+      //       y.className += " fa-bounce";
+      //     } else {
+      //       y.className = "fa-brands fa-linkedin fa-xl";
+      //     }
+
+      //   })
+
+      // }
+
+
+    </script>
+</body>
+
+</html>
