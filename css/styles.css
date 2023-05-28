@@ -58,6 +58,44 @@ a:hover {
   color: #EAF6F6;
 }
 
+.name {
+  animation-name: moveInLeft;
+  animation-duration: 2s;
+  animation-delay: .2s;
+}
+
+.title {
+  animation-name: moveInRight;
+  animation-duration: 2s;
+  animation-delay: .2s;
+}
+
+@keyframes moveInLeft {
+  0% {
+    opacity: 0;
+    transform: translate(-150px, -150px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translate(0);
+  }
+
+}
+
+@keyframes moveInRight {
+  0% {
+    opacity: 0;
+    transform: translate(150px, 150px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translate(0);
+  }
+
+}
+
 .top-containe {
   display: flex;
 
